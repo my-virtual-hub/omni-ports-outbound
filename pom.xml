@@ -32,4 +32,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/marco-quicula/omni-communicator-ports-outbound</url>
+        </repository>
+    </distributionManagement>
 </project>
