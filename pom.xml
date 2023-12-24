@@ -37,15 +37,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>github-ports-outbound</id>
             <name>GitHub OWNER Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/marco-quicula/omni-communicator-ports-outbound</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
         </repository>
     </distributionManagement>
 </project>
