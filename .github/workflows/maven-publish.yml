@@ -64,7 +64,7 @@ jobs:
           MAVEN_USERNAME_ALTERNATIVE_SNAPSHOT: ${{ secrets.MAVEN_USERNAME_ALTERNATIVE_SNAPSHOT }}
           MAVEN_PASSWORD_ALTERNATIVE_SNAPSHOT: ${{ secrets.MAVEN_PASSWORD_ALTERNATIVE_SNAPSHOT }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-          GPG_KEYNAME: ${{ secrets.GPG_KEYNAME }}
+          GPG_KEYNAME: ${{ vars.GPG_KEYNAME }}
           GPG_PASSPHRASE_SERVER_ID: ${{ secrets.GPG_PASSPHRASE_SERVER_ID }}
 
       - name: Publish to OSSRH Repository
