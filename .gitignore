@@ -25,3 +25,4 @@ replay_pid*
 /target/
 /omnicommunicator-ports-outbound.iml
 /.idea/
+/omni-ports-outbound.iml
