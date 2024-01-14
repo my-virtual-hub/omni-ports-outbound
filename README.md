@@ -1,14 +1,21 @@
-# Omni Communicator Ports Outbound
+# Omni Ports Outbound
 
-This repository hosts the outbound port interfaces and Data Transfer Objects (DTOs) for the 'omni-communicator-domain-layer' application. In line with the hexagonal architecture, these outbound ports enable the domain layer to communicate and send data to external systems or services. This repository is crucial for managing and facilitating the outward interactions of the 'omni-communicator-domain-layer'.
+This module, "omni-ports-outbound," is designed to efficiently manage outbound interfaces and Data Transfer Objects (DTOs). These interfaces play a pivotal role in data export from the system, setting up a definitive framework for transmitting information to external sources or other layers within the project.
+
+The incorporation of DTOs in this module ensures the streamlined transfer of data from the model to the application layers and beyond. They are crucial in guaranteeing that only pertinent information is transmitted, enhancing efficiency and reducing the coupling between different system layers. This method streamlines the outward flow of data, aiding in more effective maintenance and scalability.
+
+Furthermore, "omni-ports-outbound" standardizes the manner in which data is sent out from the system. This brings about uniformity and consistency throughout the project, simplifying management and the evolution of the code.
+
+Fundamentally, the "omni-ports-outbound" module is a vital component of the Omni project, offering a robust and effective framework for managing outbound data. It allows developers to focus on specific development tasks while ensuring that the data output is handled in a reliable and orderly fashion.
 
 ## Installation
 
-Clone the repository and integrate it with your development environment. Make sure it is in line with the implementation needs of the 'omni-communicator-domain-layer' application.
+1. Clone the repository
+2. Execute the following command in the root directory of the project:
 
-## Usage
-
-Utilize these outbound port interfaces and DTOs when developing or extending functionalities that allow the 'omni-communicator-domain-layer' to interact with external services and systems. They act as the contract for data transmission out of the domain.
+    ```bash
+    mvn clean install
+    ```
 
 ## Independent Project
 
@@ -16,21 +23,31 @@ This project operates independently and its progression depends on availability 
 
 ## Using SonarCloud and Qodana for Code Quality
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) 
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-comm-ports-outbound)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound)  [![Qodana](https://github.com/my-virtual-hub/omni-comm-ports-outbound/actions/workflows/qodana.yml/badge.svg?branch=main)](https://github.com/my-virtual-hub/omni-comm-ports-outbound/actions/workflows/qodana.yml)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-ports-outbound)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound)  [![Qodana](https://github.com/my-virtual-hub/omni-comm-ports-outbound/actions/workflows/qodana.yml/badge.svg?branch=main)](https://github.com/my-virtual-hub/omni-ports-inbound/actions/workflows/qodana.yml)
 
 | Quality Metrics | Code Metrics | Security Metrics |
 |---|---|---|
-| [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) |
-| [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=coverage)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=bugs)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) |
-| [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) |
-| | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | |
-| | [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-comm-ports-outbound&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-comm-ports-outbound) | |
+| [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) |
+| [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=coverage)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=bugs)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) |
+| [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) |
+| | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | |
+| | [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=my-virtual-hub_omni-ports-outbound&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) | |
+
+## License
+
+This software is governed by the BSD 2-Clause License. This is a free software license with minimal restrictions on redistribution, providing flexibility for both private and commercial use. The BSD license is compatible with many other open source licenses, making it a popular choice for software distribution.
+
+For more information about the BSD 2-Clause License and its terms, please visit the official license link:
+
+[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
+
+![Approved License](images/approved-license.png)
 
 ## Contact
 
 ![Marco Quicula](images/marco.png)
 
-- Email: [marco.quicula@quicula.com.br](mailto:marco.quicula@quicula.com.br)
-- Website: [www.quicula.com.br](http://www.quicula.com.br)
+- Email: [marco.quicula@myirtualhub.com.br](mailto:marco.quicula@myvirtualhub.com.br)
+- Website: [www.myvirtualhub.com.br](http://www.myvirtualhub.com.br)
 - LinkedIn: [https://www.linkedin.com/in/marco-quicula/](https://www.linkedin.com/in/marco-quicula/)
