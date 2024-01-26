@@ -24,7 +24,7 @@ This project operates independently and its progression depends on availability 
 ## Using SonarCloud and Qodana for Code Quality
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound)
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-ports-outbound)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound)  [![Qodana](https://github.com/my-virtual-hub/omni-comm-ports-outbound/actions/workflows/qodana.yml/badge.svg?branch=main)](https://github.com/my-virtual-hub/omni-ports-inbound/actions/workflows/qodana.yml)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=my-virtual-hub_omni-ports-outbound)](https://sonarcloud.io/summary/new_code?id=my-virtual-hub_omni-ports-outbound) 
 
 | Quality Metrics | Code Metrics | Security Metrics |
 |---|---|---|
@@ -36,13 +36,7 @@ This project operates independently and its progression depends on availability 
 
 ## License
 
-This software is governed by the BSD 2-Clause License. This is a free software license with minimal restrictions on redistribution, providing flexibility for both private and commercial use. The BSD license is compatible with many other open source licenses, making it a popular choice for software distribution.
-
-For more information about the BSD 2-Clause License and its terms, please visit the official license link:
-
-[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
-
-![Approved License](images/approved-license.png)
+Omni Communicator is Open Source software released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Contact
 
